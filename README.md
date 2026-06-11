@@ -118,7 +118,7 @@ Al cruzar esta estructura de datos con paneles de auditoría premium (como IQVIA
 
 1. Clonar la jerarquía del repositorio:
 ```bash
-git clone https://github.com/juanchocce/Data-Driven-Salesforce-Optimization-Analitica-de-Ubicacion-e-Inteligencia-de-Agendamiento-Medico.git
+git clone https://github.com/juanchocce/MEDICOS-DEL-PERU-Data-Driven-Salesforce-Optimization.git
 ```
 ---
 
