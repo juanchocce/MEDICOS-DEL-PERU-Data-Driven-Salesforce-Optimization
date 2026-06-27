@@ -1,4 +1,4 @@
-# 🏥 Data-Driven Salesforce Optimization: Analítica de Ubicación e Inteligencia de Agendamiento Médico End-to-End
+# 🏥 MedTargeting Perú: Optimización Data-Driven de la Fuerza de Ventas Farmacéutica
 
 Este repositorio contiene el despliegue de extremo a extremo de una solución de **Inteligencia Comercial (BI) y Localización Avanzada** diseñada específicamente para optimizar la Efectividad de la Fuerza de Ventas (SFE) en el sector farmacéutico de alta especialización. La plataforma automatiza la ingesta de datos a través de motores de scraping, resuelve la consistencia de entidades distribuidas y estructura una capa semántica en Power BI basada en un modelo en estrella.
 
