@@ -4,6 +4,9 @@ Este repositorio contiene el despliegue de extremo a extremo de una solución de
 
 ---
 
+<img width="1366" height="768" src="https://github.com/juanchocce/MedTargeting-Peru-Optimizacion-Data-Driven-de-la-Fuerza-de-Ventas-Farmaceutica-POWER-BI/blob/main/imagenes/med1.png" />
+
+---
 ## 🎯 El Problema de Negocio y la Solución
 
 ### El Desafío Comercial 📉
@@ -14,14 +17,13 @@ Este proyecto construye un **Proxy de Mercado Abierto** de alta resolución que 
 
 ---
 
+<img width="1366" height="768" src="https://github.com/juanchocce/MedTargeting-Peru-Optimizacion-Data-Driven-de-la-Fuerza-de-Ventas-Farmaceutica-POWER-BI/blob/main/imagenes/med2.png" />
+
+---
+
 ## 📊 Arquitectura e Interfaz de la Plataforma
 
 La solución visual y analítica está segmentada estratégicamente en cuatro paneles de control que responden a necesidades tácticas y ejecutivas concretas:
-
-<img width="1366" height="768" alt="Performance de Cobertura y Target de Mercado" src="https://github.com/juanchocce/Data-Driven-Salesforce-Optimization-Physician-Scheduling-Location-Analytics/blob/main/proyecto%201.png" />
-<img width="1366" height="768" alt="Análisis de Médicos Multisede" src="https://github.com/juanchocce/Data-Driven-Salesforce-Optimization-Physician-Scheduling-Location-Analytics/blob/main/proyecto%202.png" />
-<img width="1366" height="768" alt="Análisis Geográfico de Mercado e Infraestructura de Salud" src="https://github.com/juanchocce/Data-Driven-Salesforce-Optimization-Physician-Scheduling-Location-Analytics/blob/main/proyecto%203.png" />
-<img width="1366" height="768" alt="Planificador Táctico e Intercepción de Fuerza de Ventas" src="https://github.com/juanchocce/Data-Driven-Salesforce-Optimization-Physician-Scheduling-Location-Analytics/blob/main/proyecto%204.png" />
 
 
 ### Módulos de Control Desplegados:
@@ -32,6 +34,11 @@ La solución visual y analítica está segmentada estratégicamente en cuatro pa
 
 ---
 
+<img width="1366" height="768" src="https://github.com/juanchocce/MedTargeting-Peru-Optimizacion-Data-Driven-de-la-Fuerza-de-Ventas-Farmaceutica-POWER-BI/blob/main/imagenes/med3.png" />
+
+---
+
+
 ## 🔌 Origen y Pipelines de Datos (Data Ingestion)
 
 Un pilar clave de este proyecto es su capacidad para orquestar de manera limpia e híbrida múltiples orígenes de datos públicos y sectoriales:
@@ -41,6 +48,10 @@ Un pilar clave de este proyecto es su capacidad para orquestar de manera limpia 
 *   **Plataforma Nacional de Datos Abiertos (MINSA):** Ingesta de los padrones maestros de infraestructura del estado desde la plataforma [Datos Abiertos Perú](https://www.datosabiertos.gob.pe/), obteniendo el catálogo oficial del Registro Nacional de Establecimientos de Salud (**RENIPRESS / RENAES**), coordenadas geográficas (Latitud/Longitud), categorías resolutivas e información institucional.
   
 *   **Colegio Médico del Perú (CMP):** Extracción de los metadatos de validación profesional y estado habilitante directo desde el portal oficial [Conoce a tu Médico - CMP](https://conoceatumedico.cmp.org.pe/), asegurando la calidad y vigencia del maestro de profesionales.
+
+---
+
+<img width="1366" height="768" src="https://github.com/juanchocce/MedTargeting-Peru-Optimizacion-Data-Driven-de-la-Fuerza-de-Ventas-Farmaceutica-POWER-BI/blob/main/imagenes/med4.png" />
 
 ---
 
@@ -64,6 +75,10 @@ Para mitigar el desorden inherente de la data extraída de la web, se diseñó e
 
 *   **Capa de Resolución de Entidades (`Dim_Fact_&_Esta`):** Se desarrolló una tabla intermedia de emparejamiento de cadenas de texto (String-Matching) para corregir y homologar las discrepancias entre los nombres libres de las clínicas del scraping y los IDs numéricos del código maestro RENAES, eliminando duplicados y garantizando la integridad referencial.
 *   **Dimensión Desconectada Temporal:** Implementación de un patrón avanzado para inyectar franjas horarias como parámetros de control dinámicos independientes en la interfaz del usuario.
+
+---
+
+<img width="1366" height="768" src="https://github.com/juanchocce/MedTargeting-Peru-Optimizacion-Data-Driven-de-la-Fuerza-de-Ventas-Farmaceutica-POWER-BI/blob/main/imagenes/med5.png" />
 
 ---
 
@@ -104,6 +119,10 @@ AVERAGEX(
 )
 
 ```
+
+---
+
+<img width="1366" height="768" src="https://github.com/juanchocce/MedTargeting-Peru-Optimizacion-Data-Driven-de-la-Fuerza-de-Ventas-Farmaceutica-POWER-BI/blob/main/imagenes/med6.png" />
 
 ---
 
